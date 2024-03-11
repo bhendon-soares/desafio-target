@@ -18,6 +18,7 @@ public class Reverse {
         System.out.println("Sua string: " + userString);
         System.out.println("String invertida: " + reversedString);
     }
+
     public static String reverseString(String str) {
         char[] characters = str.toCharArray();
         int start = 0;
